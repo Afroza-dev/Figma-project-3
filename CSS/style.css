@@ -1,0 +1,159 @@
+/* COMMON CSS STARTS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+	--primary: #b88e2f;
+    --secondary: #000;
+    --font-family: "Poppins", sans-serif;
+}
+body{
+    font-family: var(--font-family);
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+list-style: none;
+}
+.container{
+    max-width: 1240px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn-primary{
+   background-color: var(--primary);
+   padding: 12px 36px;
+   display: inline-block;
+   font-family: var(--font-family);
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 150%;
+   color: #fff;
+
+}
+/* COMMON CSS ENDS */
+/* Nav bar starts */
+nav .logo{ 
+    width: 20%;
+    align-items: center;
+}
+nav .menu{
+    width: 50%;
+}
+nav .menu ul{
+    justify-content: center;
+}
+nav .row{
+    align-items: center;
+}
+ nav .menu ul li a{
+    display: inline-block;
+    padding: 38px 30.5px;
+    color: var(--secondary);
+    font-size: 16px;
+    font-weight: 500;
+}
+nav .menu li a:hover{
+    color:var(--primary);
+}
+nav .quicklink{
+    width: 30%;
+    text-align: right;
+    }
+nav .quicklink a{
+    color: black;
+    margin: 0px 22.5px;
+    font-size: 23.33px;
+}
+nav .quicklink a:hover{
+    color:var(--primary);
+}
+/* Nav bar ends */
+/* Banner starts here */
+#banner{
+    background-image:url(../images/banner.png);
+    height: 716px;
+    background-size: cover;
+}
+.bannerCnt{
+    width: 643px;
+    background-color: #FFF3E3;
+    border-radius: 10px;
+    height: 443px;
+    padding: 61.7px 42px 37.3px 40px;
+    position: absolute;
+    top: 200px;
+    right: 58px;
+    left: 747px;
+}
+.bannerCnt h5{
+font-family: var(--font-family);
+font-weight: 600;
+font-size: 16px;
+letter-spacing: 0.19em;
+color: #333;
+}
+.bannerCnt h1{
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 52px;
+line-height: 125%;
+color: var(--primary);
+margin-top: 4px;
+margin-bottom: 17px;
+}
+.bannerCnt P{font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    color: #333;
+    margin-bottom: 46px;
+} 
+.bannerCnt a{
+padding: 25px 72px;
+}
+/* Banner ends here */
+/* CATAGORIES STARTS */
+/* #catagories{
+    padding: 56px 0px;
+} */
+.box{
+    width: 559px;
+    height: 76px;
+    margin: 92px 0 62px 270px;
+    text-align: center;
+}
+.box h3{
+     font-family: var(--font-family);
+     font-weight: 700;
+     font-size: 32px;
+     color: #333;
+    }
+.box p{ 
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #666;
+    text-align: center;
+}
+#catagories{
+    /* padding: 57px 0; */
+    height: 643px;}
+.catagorie-cart{
+     width: calc(33.33%-20px);
+     margin: 0 10px;
+     font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    }
+    .catagorie-cart a{
+    color: #333;
+    }
+ /* CATAGORIES ENDS */
